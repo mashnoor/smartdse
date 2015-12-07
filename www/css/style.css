@@ -1,0 +1,13 @@
+/* Empty. Add your own CSS if you like */
+#rcorners2 {
+    border-radius: 25px;
+    border: 2px solid #00CCCF;   
+    width: 98%;    
+    text-align: center;
+    margin: auto;
+    color:white;
+}
+
+#rounder {
+     border-radius: 13px;
+}
