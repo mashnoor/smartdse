@@ -30,9 +30,9 @@
         <ion-header-bar style="background-color:#326288" class="bar-stable" align-title="left">
             <img src="img/smartdselogotransparent.png" alt="SmrtDSE Logo">
         </ion-header-bar>
-        <ion-content>
+        <ion-content ng-controller="MainCtrl">
             <hr style="height:7px;border:none;color:#333;background-color:black;" />
-            <div id="rcorners2">Server Text</div>
+            <div id="rcorners2">{{ header_text }}</div>
             <!--DSEX Items-->
             <div class="card" id="rounder" style="background-color:#1C1C1C">
                 <div class="row">
