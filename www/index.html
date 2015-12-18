@@ -22,6 +22,8 @@
     <!-- your app's js -->
     <script src="js/app.js"></script>
     <script src="js/controllers.js"></script>
+    <script src="js/directives/header.js"></script>
+    
 </head>
 
 <body ng-app="starter">
@@ -30,6 +32,7 @@
         <ion-header-bar style="background-color:#326288" class="bar-stable" align-title="left">
             <img src="img/smartdselogotransparent.png" alt="SmrtDSE Logo">
         </ion-header-bar>
+    
         <ion-content ng-controller="MainCtrl">
             <hr style="height:7px;border:none;color:#333;background-color:black;" />
             <div id="rcorners2">{{ header_text }}</div>
@@ -104,8 +107,10 @@
             <div ng-controller="btnCtrl">
                 <button class="button" value="Click" ng-click="world()">Click</button>
             </div>
+            <header></header>
         </ion-content>
     </ion-pane>
+    
 </body>
 
 </html>
